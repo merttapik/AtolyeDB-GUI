@@ -13,7 +13,7 @@ namespace Atolye
 {
     public partial class Form4 : Form
     {
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-PA2B818;Initial Catalog=AtolyeDB;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=;Initial Catalog=AtolyeDB;Integrated Security=True");
         SqlCommand komut;
         SqlDataAdapter da;
         DataTable tablo = new DataTable();
